@@ -1,0 +1,136 @@
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+  float: none;
+}
+#header {
+  position: relative;
+  margin:0 auto;
+  width:1440px;
+  height: 100px;
+    background-color:#045F4A;
+    padding:0px;
+}
+.logo {
+left: 11px;
+position: absolute;
+top: 50px;
+}
+.nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+.nav li{
+  float: right;
+  width: 400px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  line-height: 50px;
+  height: 50px;
+}
+.nav a{
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+  padding: 25px 80px;
+  display: block;
+  transition: .3s background-color;
+}
+.nav a:hover{
+  background-color: #4EA591;
+}
+.heading{
+  font-family: 'Ubuntu',serif;
+  font-size: 1.5em;
+  padding-top: 90px;
+  padding-left: 200px;
+  padding-bottom: 20px;
+  color: #800020;
+  font-weight: lighter;
+}
+.description{
+  font-family: 'Roboto',serif;
+  font-size: 1.5em;
+  line-height: 1.5;
+  text-align: right;
+  margin-left: 2.5em;
+  margin-right: 20em;
+  margin-top: -50px;
+  padding-right: 400px;
+}
+.hero{
+position: relative;
+  margin-left: 55em;
+  margin-top: -580px;
+  margin-bottom: 65px;
+}
+.button1{
+  padding-left: 150px;
+  padding-top: 100px;
+}
+.button1 a:hover{
+  background-color: yellow;
+}
+.button2{
+  padding-left: 450px;
+margin-top: -47px;
+}
+
+.image{
+  width: 1440px;
+}
+.header{
+  color: white;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 1.5em;
+  margin-left: 14em;
+  /*margin-top: -12em;*/
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+  line-height: 340px;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail {
+  width: 33%;
+  text-align: center;
+  margin: 2% 4%;
+}
+.detail h3{
+  font-family: font-family: 'Ubuntu', sans-serif;
+    color: #800020;
+}
+.detail p{
+  font-family: font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+  font-size: 1em;
+}
+
+#footer {
+  position: relative;
+  margin:0 auto;
+  width:1440px;
+  height: 100px;
+    background-color:#045F4A;
+    padding:0px;
+  }
+  #footer a{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding-left: 50px;
+    margin-top: 38px;
+  }
+  #footer figure{
+    display: inline-block;
+    padding-left: 200px;
+    margin-top: 30px;
+  }
